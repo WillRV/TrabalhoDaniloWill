@@ -5,6 +5,9 @@
 
     if(isset($_POST['submit'])){
         // $Segurado = new Apolice($_POST['nome'], $_POST['idade'], 0);
+        $Segurado->nome = $_POST['nome'];
+        $Segurado->idade = $_POST['idade'];
+        $Segurado->premio = 
     }
 
 ?>
